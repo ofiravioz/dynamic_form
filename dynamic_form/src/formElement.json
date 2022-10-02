@@ -1,0 +1,82 @@
+[
+  {
+    "page_label": "Form",
+    "fields": [
+      {
+        "field_id": "UserID",
+        "field_label": "UserID.",
+        "field_mandatory": "yes",
+        "field_placeholder": "Enter UserID",
+        "field_type": "text"
+      },
+      {
+        "field_id": "description",
+        "field_label": "description.",
+        "field_mandatory": "yes",
+        "field_placeholder": "Enter description",
+        "field_type": "textarea"
+      },
+      {
+        "field_id": "serial",
+        "field_label": "serial.",
+        "field_mandatory": "yes",
+        "field_placeholder": "Example: 24-X-125447-DC",
+        "field_type": "text"
+      },
+      {
+        "field_id": "indicator1",
+        "field_label": "indicator1",
+        "field_value": "on",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "on"
+          },
+          {
+            "option_label": "off"
+          },
+          {
+            "option_label": "blinking"
+          }
+        ],
+        "field_type": "select"
+      },
+      {
+        "field_id": "indicator2",
+        "field_label": "indicator2",
+        "field_value": "on",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "on"
+          },
+          {
+            "option_label": "off"
+          },
+          {
+            "option_label": "blinking"
+          }
+        ],
+        "field_type": "select"
+      },
+      {
+        "field_id": "indicator3",
+        "field_label": "indicator3",
+        "field_value": "on",
+        "field_mandatory": "yes",
+        "field_options": [
+          {
+            "option_label": "on"
+          },
+          {
+            "option_label": "off"
+          },
+          {
+            "option_label": "blinking"
+          }
+        ],
+        "field_type": "select"
+      }
+    ]
+  }
+]
